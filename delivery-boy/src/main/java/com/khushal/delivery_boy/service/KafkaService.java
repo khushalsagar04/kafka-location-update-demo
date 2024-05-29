@@ -14,7 +14,6 @@ public class KafkaService {
     private org.slf4j.Logger logger = LoggerFactory.getLogger(KafkaService.class);
     public boolean updateLocation(String location){
         kafkaTemplate.send("location-update", location);
-        logger.info("message produced");
         return true;
     }
 }
