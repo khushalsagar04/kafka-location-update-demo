@@ -8,6 +8,7 @@ public class DeliveryBoyApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DeliveryBoyApplication.class, args);
+		System.out.println("Delivery boy application is up and running");
 	}
 
 }
